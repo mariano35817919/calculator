@@ -1,0 +1,55 @@
+
+body {
+    background-color: rgb(3, 110, 105);
+    
+}
+
+h1{
+    background-color: rgb(3, 68, 65);
+    color: yellow;
+    font-size:4rem;
+    align-content: center;
+    border: 3px solid yellow ;
+    margin: auto;
+    margin-bottom: 12rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:80%;
+    text-align: center;
+}
+
+
+.calculadora{
+    background-color: rgb(3, 68, 65);
+    width: 57rem;
+    margin: 0 auto;
+    border:3px solid yellow;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.pantalla{
+    width: 99%;
+    font-size: 20px;
+    text-align: end;
+    margin-bottom: 0.5rem;
+    border:3px solid yellow;
+    border-radius: 5px;
+
+}
+
+.botones {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*border: 1px solid rgb(99, 1, 99);*/
+    gap: 5px;
+}
+
+button{
+    padding: 10px;
+    font-size: 18px;
+    border: 5px solid yellow;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+
+body{
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;   /* Centra verticalmente los elementos */
+    background-color: yellow;  /* Fondo oscuro */
+    padding: 10px 20px;   /* Espaciado interno */
+    color: white;
+    margin-bottom: 9rem;
+}
+.icon {
+    margin-right: 20px;   /* Espacio entre el icono y las ventanas */
+}
+.icono {
+    width: 40px;          /* Tamaño del icono */
+    height: 40px;
+}
+
+.ventanas {
+    display: flex;
+    gap: 15px;             /* Espacio entre las ventanas */
+}
+
+.ventana {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ventana:hover {
+    background-color: #575757; /* Cambio de fondo al pasar el ratón */
+}
+
+.calculadora{
+    background-color: rgb(3, 110, 105);
+    width: 57rem;
+    margin: 0 auto;
+    border:3px solid yellow;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.pantalla{
+    width: 99%;
+    font-size: 20px;
+    text-align: end;
+    margin-bottom: 0.5rem;
+    border:3px solid yellow;
+    border-radius: 5px;
+
+}
+
+.botones {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*border: 1px solid rgb(99, 1, 99);*/
+    gap: 5px;
+}
+
+button{
+    padding: 10px;
+    font-size: 18px;
+    border: 5px solid yellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
